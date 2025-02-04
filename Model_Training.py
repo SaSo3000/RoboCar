@@ -38,9 +38,9 @@ y_train = torch.tensor(labels, dtype=torch.long)
 class SimpleNN(nn.Module):
     def __init__(self):
         super(SimpleNN, self).__init__()
-        self.fc1 = nn.Linear(128 * 128, 512) # Input layer with 128x128 pixels
-        self.fc2 = nn.Linear(512, 128) # Hidden layer 1
-        self.fc3 = nn.Linear(128,64) # Hidder layer 2
+        self.fc1 = nn.Linear(128 * 128, 512) # Input layer with 128x128 pixels; Hidder layer 1
+        self.fc2 = nn.Linear(512, 128) # Hidden layer 2
+        self.fc3 = nn.Linear(128,64) # Hidder layer 3
         self.fc4 = nn.Linear(64, 4) # Output layer
     
     # Relu activation on Input layer, Hidder layer 1 and 2.
