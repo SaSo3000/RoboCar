@@ -17,9 +17,9 @@ A **Raspberry Pi with a camera module** is used for real-time image capture, and
 ## Project Structure  
 📂 dataset/new/dataset/ ├── 📂 Back/ ├── 📂 Forward/ ├── 📂 Left/ ├── 📂 Right/ 📜 model3.pth # Trained PyTorch model 
 
-📜 train_model.py # Model training script 
+📜 Model_Training.py # Model training script 
 
-📜 image_recognition.py # Live prediction script with MQTT communication
+📜 image_recognition_robot.py # Live prediction script with MQTT communication
 
 
 1. Train the Model
